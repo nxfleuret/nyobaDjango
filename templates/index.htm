@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{subjudul}} | Home</title>
+</head>
+<body>
+    <h1>{{subjudul}} di {{judul}}</h1>
+
+    <ul>
+        <!-- template tags -->
+        {%for link, name in nav%}
+            <li><a href=" {{link}} ">{{name}}</a></li>
+        {%endfor%}
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis egestas mauris, non euismod dolor convallis non. Phasellus dui eros, viverra eu augue eget, faucibus faucibus turpis. Vivamus quis elit ac nisl elementum lobortis eu nec ligula. Ut laoreet porttitor libero, in pharetra libero gravida vitae. Nam nec velit vel tortor dignissim malesuada nec non massa. Cras eget erat at sem congue sagittis. Suspendisse in accumsan ante. Cras nec nulla felis. Pellentesque ac sollicitudin nibh, nec ultricies nunc. Donec vitae ultricies tellus. Quisque eleifend lorem id augue semper iaculis eget sit amet felis. In in ante ac tellus scelerisque porta. Donec cursus sem eu metus lobortis, nec bibendum lorem posuere.</p>
+</body>
+</html>
